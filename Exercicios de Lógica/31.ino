@@ -12,11 +12,11 @@ void loop()
 {
     //cabeçalho - 2 pipes + 30 tracinhos
   
-  Serial.println("|-----------------------------|")
-  Serial.println("|                             |")
-  Serial.println("|         LOPAL - EX03        |")
-  Serial.println("|                             |")
-  Serial.println("|-----------------------------|")
+  Serial.println("|-----------------------------|");
+  Serial.println("|                             |");
+  Serial.println("|         LOPAL - EX03        |");
+  Serial.println("|                             |");
+  Serial.println("|-----------------------------|");
   Serial.println();//pula uma linha
   
  //entrada
