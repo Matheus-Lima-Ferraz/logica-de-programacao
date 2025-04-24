@@ -14,6 +14,15 @@ void setup()
 
 void loop()
 {
+    //cabeçalho - 2 pipes + 30 tracinhos
+  
+  Serial.println("|-----------------------------|")
+  Serial.println("|                             |")
+  Serial.println("|         LOPAL - EX04        |")
+  Serial.println("|                             |")
+  Serial.println("|-----------------------------|")
+  Serial.println();//pula uma linha
+  
   Serial.println("Qual o seu nome");
   while(! Serial.available() );
   nome = Serial.readString();

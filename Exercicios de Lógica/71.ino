@@ -13,6 +13,15 @@ void setup()
 
 void loop()
 {
+    //cabeçalho - 2 pipes + 30 tracinhos
+  
+  Serial.println("|-----------------------------|")
+  Serial.println("|                             |")
+  Serial.println("|         LOPAL - EX07        |")
+  Serial.println("|                             |")
+  Serial.println("|-----------------------------|")
+  Serial.println();//pula uma linha
+  
   // Entrada
   Serial.println("Digite o nome do funcionario:");
   while (!Serial.available()) {}       // Aguarda o usuário digitar
